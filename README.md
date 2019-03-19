@@ -1,4 +1,4 @@
-# mxcpu
+# MXCPU
 
 Arecibo / MXCPU Billboard Puzzle
 
