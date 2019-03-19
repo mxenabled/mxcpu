@@ -18,7 +18,7 @@ Arecibo / MXCPU Billboard Puzzle
 |C4|--|--|Reset the counter to zero|
 |C5|--|--|Copy counter to accumulator|
 |C6|--|--|Copy accumulator to counter|
-|D0|Memory|slot|[00-0F]|--|Copy memory slot value to accumulator|
+|D0|Memory slot [00-0F]|--|Copy memory slot value to accumulator|
 |D1|Value|--|Set accumulator to value|
 |D2|Memory slot [00-0F]|--|Store accumulator in memory slot|
 |00|--|--|Halt program execution|
