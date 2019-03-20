@@ -119,7 +119,7 @@ state = {
   inc: 0,
   pc: 0,
   acc: 0,
-  registers: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 8] 
+  registers: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] 
 };
 
 program = readFile(arguments[0]);
