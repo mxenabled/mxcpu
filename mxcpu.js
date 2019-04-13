@@ -1,3 +1,7 @@
+const fs = require('fs');
+let print = console.log.bind(console);
+let readFile = (f) => fs.readFileSync(f, 'utf8').trim();
+
 Number.prototype.mod = function(n) {
   return ((this % n) + n) % n;
 };
@@ -122,7 +126,7 @@ state = {
   registers: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] 
 };
 
-program = readFile(arguments[0]);
+program = readFile(process.argv[2]);
 interpret(program, state);
 
 print_state(state);
